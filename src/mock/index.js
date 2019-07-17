@@ -19,14 +19,9 @@ Mock.mock(
   '/login',
   'post',
   {
-    "result": "success",
-    "data": {
-      "userSn": "dfasfs",
-      "username": "fsafasf",
-      "age": 25,
-      "imgUrl": "https://avatar.csdn.net/8/5/D/3_bocongbo.jpg"
-    },
-    "msg": ""
+    username:'zhangtao25',
+    age:'12',
+    token:'35435434asfkajshkjgjhghgjhgjhgjghj'
   }
 );
 

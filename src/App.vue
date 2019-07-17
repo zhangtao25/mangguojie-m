@@ -16,6 +16,9 @@
   }
 </script>
 <style>
+  p{
+    margin-bottom: 0;
+  }
   .test{
     width: 375px;
     height: 20px;
