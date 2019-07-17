@@ -15,3 +15,20 @@ Mock.mock(
     }
 );
 
+Mock.mock(
+  '/login',
+  'post',
+  {
+    "result": "success",
+    "data": {
+      "userSn": "dfasfs",
+      "username": "fsafasf",
+      "age": 25,
+      "imgUrl": "https://avatar.csdn.net/8/5/D/3_bocongbo.jpg"
+    },
+    "msg": ""
+  }
+);
+
+console.log(11,Mock.Random.county(true))
+

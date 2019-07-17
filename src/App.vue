@@ -1,14 +1,17 @@
 <template>
   <div id="app">
     <router-view/>
-    <appFooter></appFooter>
+<!--    <appFooter></appFooter>-->
+    <footer-tabbar></footer-tabbar>
   </div>
 </template>
 <script>
-  import appFooter from './layouts/appFooter'
+  // import appFooter from './layouts/appFooter'
+  import footerTabbar from './layouts/footerTabbar'
   export default {
     components:{
-      appFooter
+      // appFooter,
+      'footer-tabbar':footerTabbar
     }
   }
 </script>

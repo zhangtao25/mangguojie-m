@@ -1,14 +1,13 @@
 import axios from 'axios'
 
-function mock01() {
+function login() {
   return new Promise((resolve, reject) => {
-    axios.get('/test').then(res => {
+    axios.post('/login',{}).then(res => {
       resolve(res)
-      // console.log(res)
     })
   })
 }
 
 export default {
-  mock01
+  login
 }

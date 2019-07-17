@@ -1,5 +1,5 @@
 <template>
   <div>
-    ss
+    mine
   </div>
 </template>
