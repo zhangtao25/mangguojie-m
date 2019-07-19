@@ -8,7 +8,8 @@
     <p class="title">手机密码登录</p>
 
     <div class="form">
-      <input placeholder="输入手机号" class="m_input" type="text" v-model="m_phoneNum">
+<!--      <input >-->
+      <bank-account-input placeholder="输入手机号" class="m_input" type="text" v-model="m_phoneNum"></bank-account-input>
       <input placeholder="输入密码" class="m_input" type="text" v-model="m_password">
       <input class="m_btn" type="button" value="登录" @click="onLoginClick">
     </div>
@@ -16,12 +17,16 @@
 </template>
 <script>
   import LoginService from './../service/login'
+  import bankAccountInput from './../components/bankAccountInput'
   export default {
     data(){
       return{
         m_phoneNum:'',
-        m_password:''
+        m_password:'',
       }
+    },
+    components:{
+      'bank-account-input': bankAccountInput
     },
     mounted() {
     },
